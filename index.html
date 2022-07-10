@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 9 Computer Engineering</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Program Learning Web App</h1>
+<h2>Class 9 Computer Engineering</h2>
+   
+    <button onclick="html()">HTML</button>
+    <iframe id="html" src="https://www.youtube.com/embed/JdDsWq32M6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr>
+    
+    <button>CSS</button>
+    <iframe id="css" src="https://www.youtube.com/embed/8eobtm_1x2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr>
+    
+    <button>JavaScript</button>
+    <iframe id="javascript"  src="https://www.youtube.com/embed/_4e_Jyjmudg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr>
+   
+    <button>Basic C programming</button>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zJusMO3JvG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr>
+    <button>Advance C Programming</button>
+    <iframe id="advancec" src="https://www.youtube.com/embed/7WH8C48UNDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr>
+    
+
+    <br><br><br><button onclick="ReadBooks()">Read E-Books</button>
+    <div id="readBook"  class="invisible">
+    <h6>Click on books to view PDF File</h6>
+    <a href="https://pustakalaya.org/media/uploads/documents/2022/05/27/Gr9_nepali_cdc_1st_2079bs_72a0c13b/Gr9_Nepali_CDC_1st_2079BS.pdf" target="blank"><button>Nepali</button></a><br>
+    <a href="https://pustakalaya.org/media/uploads/documents/2020/08/24/_4070e94f/Grade_-_9_Computer_Engineering_-_Web_Page_Designing.pdf" target="blank"><button>Web Page Design</button></a><br>
+    <a href="https://pustakalaya.org/media/uploads/documents/2021/06/30/C_Programming_Grade__9_b08fcebc/RS3783_Grade_-_9_C_Programming.pdf" target="blank"><button>C Programming</button></a><br>
+    </div>
+ <br><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default" target="blank"><button>Practise HTML </button><a>
+<hr>
+<h5>Developed By <a href="https://www.github.com/bikalthapa" target="blank">Bikal Thapa</a></h5>
+<h5>Reference : <a href="https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw" target="blank">Technology Channel</a> and <a href="https://www.w3schools.com" target="blank">w3schools.com</h5>
+
+    <script>
+    function ReadBooks(){
+    let readBooks = document.getElementById("readBook");
+    if(readBooks.classList == ""){
+    readBooks.classList.add("invisible");
+    }else if(readBooks.classList == "invisible"){
+    readBooks.classList.remove("invisible");
+    };
+    }
+    </script>
+</body>
+</html>                                                                                                                                                                                                                               

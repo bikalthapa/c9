@@ -1,0 +1,33 @@
+body{
+    text-align:center;
+   font-family:arial;
+}
+
+iframe{
+    height:100%;
+    width:100%;
+    margin:5px;
+}
+ 
+button{
+width:100%;
+background-color:blue;
+color:white;
+font-size:20px;
+font-style:bold;
+padding:10px;
+}
+
+hr{
+height:5px;
+background-color:green;
+}
+
+.invisible{
+display:none;
+}
+
+#readBook button{
+margin:4px;
+}
+
